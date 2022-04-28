@@ -13,7 +13,7 @@ For association rule mining the cmd has to be in the following format:
 
 Python arm.py [algorithm] <minimum_support> <minimum_confidence> [inputfile.txt] [outputfile.txt]
 
-where algorithm can either be Apriori or Eclat
+where: (1) algorithm can either be Apriori or Eclat (2) minimum_confidence ranges from 0 to 1
 
 
 e.g.: Python arm.py apriori 3 0.6 input/d.txt output/darm.txt 
